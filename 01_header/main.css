@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+}
+
+
+
+nav{
+    background-color: rgb(33, 33, 33);
+}
+
+
+ul{
+    padding: 0 40px;
+    margin: 0 auto; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    width: 100%;
+    min-height: 100%;
+    border-bottom: 1px solid grey;
+}
+
+a{
+    min-height: 44px;
+    display: flex;
+    color: rgb(233, 233, 233);
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px;
+    font-weight: 300;
+    font-size: medium;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+
+/* 
+body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.border{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid brown;
+}
+
+.shomare1, .shomare2, .shomare3, .border {
+    min-height: 100px;
+    width: 100%;
+}
+
+.shomare1{
+    background-color: cadetblue;
+}
+
+.shomare2{
+    background-color: darkgreen;
+}
+
+.shomare3{
+    background-color: darkmagenta;
+
+}
+
+/* .shomare4{
+    background-color: rgb(31, 49, 56);
+    width: 100%;
+}
+
+.shomare5{
+    background-color:brown ;
+    width: 100%;
+} */
+

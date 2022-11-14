@@ -1,0 +1,14 @@
+li{
+width: auto;
+border: none;
+margin: 0;
+}
+a{
+    padding: 20px 10px;
+    margin: 0 10px;
+}
+ul{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+}

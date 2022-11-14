@@ -1,0 +1,37 @@
+ul{
+    max-width: 100%;
+}
+
+li{
+    padding: 0 5px;
+    width: auto;
+    min-height: 100%;
+}
+
+a{
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+/* body{
+    width: 800px;
+
+    justify-content: center;
+} */
+
+
+/* .shomare4{
+    width: 33.33%;
+    order: 4;
+}
+
+.shomare5{
+    width: 33.33%;
+    order: 5;
+} */
